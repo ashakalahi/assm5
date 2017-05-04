@@ -1,0 +1,57 @@
+body{
+margin: 0;
+padding: 0;
+}
+.bg{
+position: relative;
+max-height: 100vh;
+overflow: hidden;
+}
+img{
+	max-width: 100%;
+	display: block;
+	width: 100%
+}
+.overlay{
+position: absolute;
+top: 0;
+left: 0;
+height: 100%;
+width: 100%;
+opacity: 0.2;
+}
+.signup-form{
+width: 22%;
+float: left;
+position: absolute;
+left: 50%;
+top: 50%;
+text-align: center;
+transform: translate(-50%,-50%);
+}
+.form{
+padding: 30px 15px;
+     background: rgba(61, 84, 177, 0.43);
+
+}
+
+input{
+width: 95%;
+padding: 10px;
+display: block;
+margin-bottom: 10px;
+border:1px solid black;
+}
+.submit{
+font-weight: bold;
+background: rgb(11,82,130);
+    color: white;
+    width: 100%; 
+}
+.paragraph1{
+font-size: 20px;
+}
+.sign-in{
+	    text-decoration: none;
+
+}
